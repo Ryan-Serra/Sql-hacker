@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+:root {
+    --letter: 'Mulish', sans-serif;
+   
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.initial {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form_desafio{
+    display:none;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form_desafio input{
+display: block;
+margin: 10px;
+height:300px;
+width: 250px;
+}
+.form_desafio button{
+    width: 250px;
+}
+form {
+    text-align: center;
+}
+
+.h1_form {
+    color: #333;
+}
+
+h2 {
+    color: #666;
+}
+
+input[type="radio"] {
+    display: none; /* Oculta os radio buttons padrão */
+}
+label:hover{
+    background-color:gray;
+}
+
+label {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    
+}
+
+input[type="radio"]:checked + label {
+    background-color: #C822FF;
+    color: #fff;
+}
+.opt_aprender{
+    margin-top: 50px;
+    font-family: var(--letter);
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 2px 1px #000;
+    border: 1.5px solid #000;
+    overflow-y: auto;
+    height: 500px;
+
+}
+.option_quiz{
+    margin-top:50px;
+    font-family: var(--letter);
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border: 2px solid #000;
+    width: 500px;
+    position: relative;
+}
+.option_perguntas{
+   display: flex;
+   font-size: 15px;
+   margin:20px;
+}
+.option_quiz h2 {
+    
+    margin-left: 20px;
+}
+#btnQuiz{
+    border-radius: 50%;
+    background-color: #6666663b;
+    border: 2px solid #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(500%, 50%);
+    width:40px;
+    height: 40px;
+}
+#btnQuiz:hover{
+    background-color: #666;
+}
+.acertou{
+    background-color: rgb(1, 173, 1);
+}
+.DesafioDiv{
+    border: 2px solid black 
+}
+.link_down{
+    text-decoration: none;
+    color: #000;
+}
+
+
